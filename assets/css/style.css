@@ -1,0 +1,31 @@
+#wrapper{
+	background-image: url("../images/hogwartsExpress.jpg");
+
+	background-size: cover;
+
+	height: 100%;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    }
+
+.container{
+	padding-top: 20px;
+	background-color: rgba(0,0,0,0);
+}
+
+.panel{
+	background-color: rgba(0,0,0,.5);
+	color: white;
+}
+
+@font-face{
+	font-family: harryPotterFont;
+	src: url(../fonts/HARRP___.TTF);
+}
+
+.mainHeader{
+	font-family: harryPotterFont;
+}
